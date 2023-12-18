@@ -80,9 +80,10 @@ main
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow:0px 0px 20px 6px #1e7b48;
-    min-width: 320px;
+    width: 90%;
+    min-width: px;
     max-width: 950px; 
-    margin: 0px auto 0px auto;
+    margin: auto;
        
 }
 
@@ -131,15 +132,17 @@ main h2
 img
 {
     display: block;
-    max-width: 665px; 
-    margin: auto;   
-}
-
-img.peq
-{
-    max-width: 300px;
+    width: 70%;
     margin: auto;
 }
+
+.peq
+{
+     
+    max-width: 400px;
+    
+}
+
 
 .video
 {
