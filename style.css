@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fotn/idroid.otf') format('opentype');
+}
+
+:root
+{
+    --cor0:#ffffff;
+    --cor1:#c5ebd6;
+    --cor2:#83e1ad;
+    --cor3:#3ddb84;
+    --cor4:#2fa866;
+    --cor5:#1a5c37;
+    --cor6:#063d1e;
+
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header 
+{
+    background-image: linear-gradient(to bottom, #3ddb84, #1a5c37);
+    margin: 0px;
+}
+
+header > p
+{
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+header > h1
+{
+    color:white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav
+{
+    padding: 4px;
+}
+
+nav > a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+}
+nav > a:hover
+{
+    background-color: #c5ebd6;
+    text-decoration: underline;
+    color: black;
+    border-radius: 5px;
+    transition-duration: .3s;
+    
+}
+
+main
+{
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow:0px 0px 20px 6px #1e7b48;
+    min-width: 320px;
+    max-width: 950px; 
+    margin: 0px auto 0px auto;
+       
+}
+
+h1
+{
+    font-family: idroid;
+    color: #1e7b48;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+
+p
+{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+a
+{
+    color: var(--cor5);
+}
+
+
+
+a:hover
+{
+    color: var(--cor6);
+}
+
+
+
+main h2
+{
+    font-family: idroid;
+    background-image: linear-gradient(to right, var(--cor2), white) ;
+    padding: 10px;
+    margin: 0px;
+    color: var(--cor6);
+
+}
+
+img
+{
+    display: block;
+    max-width: 665px; 
+    margin: auto;   
+}
+
+img.peq
+{
+    max-width: 350px;
+    margin: auto;
+}
+
+.video
+{
+    background-color: var(--cor4);
+    position: relative;
+    padding: 20px;
+    padding-bottom: 55%;
+    box-shadow: inset 0px 0px 18px 3px #063d1e;
+    margin: 10px -10px;
+}
+
+iframe
+{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0px 0px 18px 4px #063d1e;
+}
+
+
+aside
+{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    
+}
+
+aside > h1
+{
+    margin: auto;
+    color: var(--cor6);
+    background-color: var(--cor4);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+aside > ul  
+{
+    list-style-position: inside;
+    padding: 10px;
+    columns: 2;
+}
+
+
+footer
+{
+    background-color: #063d1e;
+    color: white;
+    text-decoration: underline;
+}
+footer > p
+{
+    text-align: center;
+}
